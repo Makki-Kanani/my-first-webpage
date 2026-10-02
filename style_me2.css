@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+}
+
+#profile {
+    width: 800px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.header {
+    background-color: #B7DFF5;
+    text-align: center;
+    padding: 10px;
+}
+
+.label {
+    background-color: #EAF4FF;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.information {
+    background-color: #F9F9F9;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.photo {
+    background-color: #E9F7EF;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.github {
+    background-color: #B7DFF5;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Combinator */
+.github a {
+    padding: 5px;
+}
+
+/* Link pseudo-classes */
+.github a:link {
+    color: blue;
+}
+
+.github a:visited {
+    color: purple;
+}
+
+.github a:hover {
+    color: red;
+}
+
+.github a:active {
+    color: green;
+}
